@@ -66,7 +66,7 @@ const CreateProfile = ({
                     <div className="form-group">
                         <input
                             type="text"
-                            placeholder="Your Kid's name"
+                            placeholder="*Your Kid's name"
                             name="kidname"
                             value={kidname}
                             onChange={onChange}

@@ -34,7 +34,7 @@ const AddEducation = ({ addEducation, history }) => {
         <Fragment>
             <h1 className='large text-primary'>Add Your Kid's Education</h1>
             <p className='lead'>
-                <i className='fas fa-code-branch' /> Add any school or bootcamp that you
+                <i className='fas fa-code-branch' /> Add any school or programs that your kids
         have attended
       </p>
             <small>* = required field</small>
@@ -48,7 +48,7 @@ const AddEducation = ({ addEducation, history }) => {
                 <div className='form-group'>
                     <input
                         type='text'
-                        placeholder='* School or Bootcamp'
+                        placeholder='* School or programs'
                         name='school'
                         value={school}
                         onChange={e => onChange(e)}
@@ -68,7 +68,7 @@ const AddEducation = ({ addEducation, history }) => {
                 <div className='form-group'>
                     <input
                         type='text'
-                        placeholder='Field of Study'
+                        placeholder='*Field of Study'
                         name='fieldofstudy'
                         value={fieldofstudy}
                         onChange={e => onChange(e)}
