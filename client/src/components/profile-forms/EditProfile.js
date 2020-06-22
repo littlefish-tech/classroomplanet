@@ -110,7 +110,7 @@ const EditProfile = ({
                         name="kidsinterests"
                         value={kidsinterests}
                         onChange={onChange}
-                    />
+                        required />
                     <small className="form-text">
                         Please use comma separated values (eg. Art, Basketball, Math, Social Study)
           </small>
