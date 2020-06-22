@@ -2,6 +2,9 @@
   "name": "classroomplanet",
   "version": "1.0.0",
   "description": "A place for parents connection",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server",

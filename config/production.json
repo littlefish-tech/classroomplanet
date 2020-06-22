@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://classroomplanet:classroomplanet@classroomplanet-jv7xx.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+}
